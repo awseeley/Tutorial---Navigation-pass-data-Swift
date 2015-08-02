@@ -13,6 +13,7 @@
 		180529001B66316A007B6AD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180528FF1B66316A007B6AD8 /* Images.xcassets */; };
 		180529031B66316A007B6AD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180529011B66316A007B6AD8 /* LaunchScreen.xib */; };
 		1805290F1B66316A007B6AD8 /* NavigationPassDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805290E1B66316A007B6AD8 /* NavigationPassDataTests.swift */; };
+		180529191B6632E7007B6AD8 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180529181B6632E7007B6AD8 /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		180529081B66316A007B6AD8 /* NavigationPassDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationPassDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1805290D1B66316A007B6AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1805290E1B66316A007B6AD8 /* NavigationPassDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPassDataTests.swift; sourceTree = "<group>"; };
+		180529181B6632E7007B6AD8 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				180528F81B66316A007B6AD8 /* AppDelegate.swift */,
 				180528FA1B66316A007B6AD8 /* ViewController.swift */,
 				180528FC1B66316A007B6AD8 /* Main.storyboard */,
+				180529181B6632E7007B6AD8 /* ColorView.swift */,
 				180528FF1B66316A007B6AD8 /* Images.xcassets */,
 				180529011B66316A007B6AD8 /* LaunchScreen.xib */,
 				180528F61B66316A007B6AD8 /* Supporting Files */,
@@ -156,6 +159,7 @@
 		180528EB1B66316A007B6AD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Seemu;
 				TargetAttributes = {
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180529191B6632E7007B6AD8 /* ColorView.swift in Sources */,
 				180528FB1B66316A007B6AD8 /* ViewController.swift in Sources */,
 				180528F91B66316A007B6AD8 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +416,7 @@
 				180529141B66316A007B6AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180529151B66316A007B6AD8 /* Build configuration list for PBXNativeTarget "NavigationPassDataTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +425,7 @@
 				180529171B66316A007B6AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
