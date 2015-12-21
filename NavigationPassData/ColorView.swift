@@ -15,7 +15,7 @@ class ColorView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        println(passedColor)
+        print(passedColor)
         if passedColor == "Red" {
             self.view.backgroundColor = UIColor.redColor()
         } else if passedColor == "Blue" {
