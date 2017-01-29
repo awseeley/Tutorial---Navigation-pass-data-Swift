@@ -22,9 +22,9 @@ class ViewController: UIViewController {
 
     
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let vc = segue.destinationViewController  as! ColorView // Get our ColourView
+        let vc = segue.destination  as! ColorView // Get our ColourView
         print(segue.identifier) // Show the segue identifier that is being run
         if segue.identifier == "sgRed" {
             vc.passedColor = "Red" // Pass the colour red to the passedColor varible in ColorView

@@ -17,9 +17,9 @@ class ColorView: UIViewController {
 
         print(passedColor)
         if passedColor == "Red" {
-            self.view.backgroundColor = UIColor.redColor()
+            self.view.backgroundColor = UIColor.red
         } else if passedColor == "Blue" {
-            self.view.backgroundColor = UIColor.blueColor()
+            self.view.backgroundColor = UIColor.blue
         }
     }
 
